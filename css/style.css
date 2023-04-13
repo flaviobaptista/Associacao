@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: linear-gradient(30deg, #10292f, #71B280);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.changeStyle {
+    background-color: #10292f;
+    transition: all 0.32s;
+    height: 80px;
+}
+
+.navbar-toggler {
+    background-color: #02fba8;
+}
+
+.navbar-brand {
+    color: aliceblue;
+}
+
+.navbar-brand:hover {
+    color: aliceblue;
+}
+
+.offcanvas {
+    background-color: #245a54;
+    color: #134E5E;
+}
+
+.offcanvas-header {
+    background-color: #d8ffe1;
+}
+
+.img-logo {
+    width: 80px;
+}
+
+
+
+.nav-link {
+    color: aliceblue;
+    font-size: 1.2rem;
+    transition: all 0.42s;
+
+}
+
+
+.nav-link:hover {
+    color: #02fba8;
+}
+
+.nav-link:focus {
+    color: #02fba8;
+    font-weight: 700;
+    border-bottom: solid 1px #02fba8;
+}
+
+.nav-item {
+    margin-right: 5vw;
+    border-bottom: solid 1px #02fba800;
+    transition: all 0.42s;
+}
+
+.nav-item:hover {
+    border-bottom: solid 1px #02fba8;
+}
+
+/* Conteudo */
+
+.main {
+    padding: 150px 0px 0px 0px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #10292f;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+footer iframe {
+    width: 550px;
+    height: 250px;
+}
+
+/* Page Home */
+
+.main-home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-associ {
+    width: 85%;
+    box-sizing: border-box;
+}
+
+.content-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-home h2 {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+/* Sobre */
+.content-sobre {
+    margin-bottom: 200px;
+}
+
+/* Noticias */
+.content-noticias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+}
+
+.content-noticias span {
+    color: red;
+    font-weight: 700;
+}
+
+.card{
+    width: 18rem;
+}
+/* Contatos */
+.content-contatos {
+    margin-bottom: 200px;
+}
+
+.content-contatos p {
+    margin-top: 50px;
+    font-size: 1.3em;
+}
+
+.content-contatos li {
+    font-size: 1em;
+    margin: 20px 0px;
+}
+
+.social-contacts {
+    background-color: #10292f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-contacts a {
+    padding: 20px;
+}
+
+.social-contacts .bi-whatsapp {
+    color: aliceblue;
+    font-size: 2.5em;
+    transition: all 0.42s;
+}
+
+.social-contacts .bi-whatsapp:hover {
+    color: rgb(45, 199, 104);
+}
+
+.social-contacts .bi-instagram {
+    color: aliceblue;
+    font-size: 2.5em;
+    transition: all 0.42s;
+
+}
+
+.social-contacts .bi-instagram:hover {
+    color: rgb(255, 49, 97);
+}
+
+@media only screen and (max-width: 767px) {
+
+    .img-logo {
+        width: 50px;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    /* Conteudo */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    footer iframe{
+        width: 100%;
+    }
+
+    /* Page Home */
+
+.main-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+
+/* Sobre */
+.content-sobre {
+    margin: 0px 10px;
+}
+
+/* Noticias */
+.content-noticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.content-noticias hr{
+    width: 80%;
+}
+
+.card{
+    width: 12rem;
+}
+
+    /* Contatos */
+
+    .content-contatos{
+        margin: 0px 10px;
+    }
+.content-contatos h3{
+    font-size: 1rem;
+}
+.content-contatos p{
+    font-size: 1em;
+}
+
+.content-contatos ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+    
+}
